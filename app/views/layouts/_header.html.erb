@@ -1,0 +1,13 @@
+<header class = "navbar navbar-fixed-top navbar-inverse">
+    <div class = "container"> <!--container class provides a responsive fixed width container--><!--container-fluid class full width container spanning entire viewport-->
+     <%= link_to "sample app", root_path, id: "logo" %>
+    <nav>
+       <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to "Home",   root_path %> </li>
+        <li><%= link_to "About",  about_path%> </li>
+        <li><%= link_to "Portfolio", portfolio_path %></li>
+        <li><%= link_to "Log in", '#'%> </li>
+       </ul>
+      </nav>
+     </div>
+    </header>
